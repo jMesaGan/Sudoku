@@ -6,6 +6,7 @@ para resolver el Sudoku usando [CVC5](<https://cvc5.github.io/app/>)
 ### Uso
 
 Para *crear la config*  4x4(cn_4) o 9x9(cn_9) 
+
 [(fila,columna,numero),(fila,columna,numero)...]
 
 ![sudoku2x2](image.png)
@@ -13,12 +14,14 @@ Para *crear la config*  4x4(cn_4) o 9x9(cn_9)
 
 ### Llamar al sudoku
 
-sudoku (tamaño)(cn_4 o cn_9)
+sudoku (tamaño)(config)
 
-* El resultado lo pegamos en [CVC5](<https://cvc5.github.io/app/>)
+> El tamaño es o 4 o 9 y la config o cn_4 o cn_9
+
+* El resultado de sudoku lo pegamos en [CVC5](<https://cvc5.github.io/app/>)
 
 ### Interpretacion de resultados    
 
 * Nos devuelve un formato (fila,columna,numero, true o false) 
 
-* Cuando dice *true* en esa fila y columna va ese numero
+* Cuando dice *true* en esa fila y columna va ese numero, el resto de numeros que pueden pertenecer a esa fila o columna tiene que dar como resultado false
