@@ -5,9 +5,20 @@ para resolver el Sudoku usando [CVC5](<https://cvc5.github.io/app/>)
 
 ### Uso
 
-Para *crear la config* 9x9 o 3x3
+Para *crear la config*  4x4(cn_4) o 9x9(cn_9) 
 [(fila,columna,numero),(fila,columna,numero)...]
 
+![sudoku2x2](image.png)
+> Aca la casilla resaltada es [(2,1,3)...]
 
+### Llamar al sudoku
 
-> Aca la casilla resaltada es [(1,3,9)...]
+sudoku (tamaño)(cn_4 o cn_9)
+
+* El resultado lo pegamos en [CVC5](<https://cvc5.github.io/app/>)
+
+### Interpretacion de resultados    
+
+* Nos devuelve un formato (fila,columna,numero, true o false) 
+
+* Cuando dice *true* en esa fila y columna va ese numero
