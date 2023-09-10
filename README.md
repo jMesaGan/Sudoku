@@ -24,4 +24,4 @@ sudoku (tamaño)(config)
 
 * Nos devuelve un formato (fila,columna,numero, true o false) 
 
-* Cuando dice *true* en esa fila y columna va ese numero, el resto de numeros que pueden pertenecer a esa fila o columna tiene que dar como resultado false
+* Cuando dice *true* en esa posicion dada por la fila y columna, el resto de numeros que pueden ser de esa posicion tiene que dar como resultado *false*
