@@ -10,7 +10,7 @@ Para *crear la config*  4x4 (cn_4) o 9x9 (cn_9)
 [(fila,columna,numero),(fila,columna,numero)...]
 
 ![sudoku2x2](image.png)
-> Aca la casilla resaltada es [(2,1,3)...]
+> Aca la casilla resaltada es [(2,1,3)...] (este sudoku en especifico esta completo en el archivo .hs)
 
 ### Llamar al sudoku
 
