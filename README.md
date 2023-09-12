@@ -5,7 +5,7 @@ para resolver el Sudoku usando [CVC5](<https://cvc5.github.io/app/>)
 
 ### Uso
 
-Para *crear la config*  4x4(cn_4) o 9x9(cn_9) 
+Para *crear la config*  4x4 (cn_4) o 9x9 (cn_9) 
 
 [(fila,columna,numero),(fila,columna,numero)...]
 
